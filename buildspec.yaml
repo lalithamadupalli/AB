@@ -4,7 +4,7 @@ phases:
   runtime-versions:
       python: 3.9
   commands:
-      - yum install pip -y
+      - apt install pip -y
       - pip install boto3
  
  pre_build:
