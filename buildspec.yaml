@@ -9,7 +9,7 @@ phases:
  
  pre_build:
     commands:
-        - This is main branch
+        - echo this is main branch
         - ls
         - echo Logging in to Amazon ECR...
 #       - aws --version
